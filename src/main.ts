@@ -1,10 +1,10 @@
 /*
  * @Author: your name
  * @Date: 2021-10-15 17:10:16
- * @LastEditTime: 2022-05-11 10:45:56
+ * @LastEditTime: 2023-05-22 17:14:30
  * @LastEditors: matiastang
  * @Description: In User Settings Edit
- * @FilePath: /datumwealth-front-scaffold/src/main.ts
+ * @FilePath: /OrillusionLearning/src/main.ts
  */
 import { createApp } from 'vue'
 import App from '@/App.vue'
@@ -54,9 +54,9 @@ pinia.use(myPiniaPlugin)
 app.use(pinia)
 
 // Element-plus组件
-app.use(ElementPlus, {
-    locale: zhCn,
-})
+// app.use(ElementPlus, {
+//     locale: zhCn,
+// })
 // 状态
 app.use(store, key)
 // 路由

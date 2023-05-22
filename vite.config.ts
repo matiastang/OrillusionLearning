@@ -1,10 +1,10 @@
 /*
  * @Author: your name
  * @Date: 2021-10-15 16:57:39
- * @LastEditTime: 2022-05-10 19:39:21
+ * @LastEditTime: 2023-05-22 16:54:57
  * @LastEditors: matiastang
  * @Description: In User Settings Edit
- * @FilePath: /datumwealth-front-scaffold/vite.config.ts
+ * @FilePath: /OrillusionLearning/vite.config.ts
  */
 // vite配置文件vite.config.js
 
@@ -116,7 +116,7 @@ export default defineConfig(({ mode, command }) => {
         // 开发服务配置
         server: {
             host: '0.0.0.0',
-            port: 3000,
+            port: 3001,
             strictPort: true,
             fs: {
                 strict: false,

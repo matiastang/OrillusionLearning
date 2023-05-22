@@ -2,8 +2,8 @@
  * @Author: matiastang
  * @Date: 2021-12-28 19:31:46
  * @LastEditors: matiastang
- * @LastEditTime: 2022-05-10 19:35:58
- * @FilePath: /datumwealth-front-scaffold/src/router/index.ts
+ * @LastEditTime: 2023-05-22 17:08:08
+ * @FilePath: /OrillusionLearning/src/router/index.ts
  * @Description: 路由
  */
 import { createRouter, createWebHashHistory, createWebHistory, RouteRecordRaw } from 'vue-router'
@@ -11,6 +11,7 @@ import { createRouter, createWebHashHistory, createWebHistory, RouteRecordRaw } 
 import Layout from '@/components/layout/Layout.vue'
 // web
 import Home from '@/views/home/Home.vue'
+import OrillusionHome from '@/views/Orillusion/Home.vue'
 // NotFound
 import NotFound from '@/views/NotFound.vue'
 
@@ -24,6 +25,11 @@ const routes: Array<RouteRecordRaw> = [
                 path: '',
                 name: 'home',
                 component: Home,
+            },
+            {
+                path: '/orillusion',
+                name: 'OrillusionHome',
+                component: OrillusionHome,
             },
         ],
         beforeEnter: (to, from) => {
